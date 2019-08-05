@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>myesbase</fullName>
+    <description>My Package</description>
+    <types>
+        <members>Contact.Reservation_Status__c</members>
+        <members>Market__c.City__c</members>
+        <members>Market__c.Country__c</members>
+        <members>Market__c.Predicted_Booking_Rate__c</members>
+        <members>Market__c.State__c</members>
+        <members>Market__c.Total_Daily_Booking_Rate__c</members>
+        <members>Reservation__c.Account__c</members>
+        <members>Reservation__c.Contact__c</members>
+        <members>Reservation__c.End_Date__c</members>
+        <members>Reservation__c.End_Time__c</members>
+        <members>Reservation__c.Lead__c</members>
+        <members>Reservation__c.Market__c</members>
+        <members>Reservation__c.Space__c</members>
+        <members>Reservation__c.Start_Date__c</members>
+        <members>Reservation__c.Start_Time__c</members>
+        <members>Reservation__c.Status__c</members>
+        <members>Reservation__c.Total_Number_Of_Guests__c</members>
+        <members>Space__c.Category__c</members>
+        <members>Space__c.Daily_Booking_Rate__c</members>
+        <members>Space__c.Market__c</members>
+        <members>Space__c.Maximum_Capacity__c</members>
+        <members>Space__c.Minimum_Capacity__c</members>
+        <members>Space__c.Picture_URL__c</members>
+        <members>Space__c.Predicted_Booking_Rate__c</members>
+        <members>Space__c.Predicted_Demand__c</members>
+        <members>Space__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Market__c</members>
+        <members>Reservation__c</members>
+        <members>Space__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Market__c</members>
+        <members>Reservation__c</members>
+        <members>Space__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Country</members>
+        <members>Reservation_Status</members>
+        <members>State</members>
+        <members>Types</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Market__c-Market Layout</members>
+        <members>Reservation__c-Reservation Layout</members>
+        <members>Space__c-Space Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Market__c.All</members>
+        <members>Reservation__c.All</members>
+        <members>Space__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>EasySpacesObjects</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>46.0</version>
+</Package>
