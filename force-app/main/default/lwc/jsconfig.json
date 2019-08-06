@@ -1,0 +1,65 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/reservationDetailForm": [
+                "reservationDetailForm/reservationDetailForm.js"
+            ],
+            "c/customerDetailForm": [
+                "customerDetailForm/customerDetailForm.js"
+            ],
+            "c/reservationHelperForm": [
+                "reservationHelperForm/reservationHelperForm.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/customerTile": [
+                "customerTile/customerTile.js"
+            ],
+            "c/customerList": [
+                "customerList/customerList.js"
+            ],
+            "c/reservationHelper": [
+                "reservationHelper/reservationHelper.js"
+            ],
+            "c/reservationTile": [
+                "reservationTile/reservationTile.js"
+            ],
+            "c/reservationList": [
+                "reservationList/reservationList.js"
+            ],
+            "c/imageTile": [
+                "imageTile/imageTile.js"
+            ],
+            "c/imageGallery": [
+                "imageGallery/imageGallery.js"
+            ],
+            "c/pill": [
+                "pill/pill.js"
+            ],
+            "c/pillList": [
+                "pillList/pillList.js"
+            ],
+            "c/spaceDesignForm": [
+                "spaceDesignForm/spaceDesignForm.js"
+            ],
+            "c/spaceDesigner": [
+                "spaceDesigner/spaceDesigner.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
